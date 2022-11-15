@@ -1,0 +1,114 @@
+h1{
+    text-align: center;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(36, 9, 135);
+}
+.container{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+    background-color: rgb(192, 189, 184);
+}
+input{
+    width: 80%;
+    height: 25px;
+    margin-left: 8%;
+    margin-top: 20px;
+    border-radius:3px ;
+    border: transparent;
+}
+textarea{
+    width: 80%;
+    height: 150px;
+    margin: 20px 0 20px 45px;
+    border-radius:3px ;
+}
+
+.btn{
+    margin-left: 40%;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: transparent;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+hr{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 30px;
+}
+
+.comment-details{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 3%;
+    
+}
+.comments{
+    width: 100%;
+    height: 160px;
+    border-radius: 8px;
+}
+.comment{
+    background-color: rgb(192, 189, 184);
+    border: 2px solid black;
+}
+p{
+    padding-top: 5px;
+    margin-left: 10px;
+}
+h3{
+    margin-left: 10px;
+    font-weight: 600;
+    color: rgb(4, 107, 4);
+}
+.delete-btn{
+    float: right;
+    margin-right: 30px;
+    color: red;
+    background: transparent;
+    border: none;
+}
+#like{
+    margin-left: 10px;
+    color: blue;
+    border: none;
+    background: transparent;
+}
+#like:hover{
+    color: rgba(139, 139, 240, 0.521);
+}
+#dislike{
+    margin-left: 10px;
+    color: rgb(174, 7, 7);
+    border: none;
+    background: transparent;
+}
+#dislike:hover{
+    color: rgba(234, 121, 121, 0.521);
+}
+#input1{
+    width: 30px;
+    margin-left: 0;
+    border: none;
+    background: transparent;
+    color: rgb(43, 8, 169);
+    font-weight: 600;
+    pointer-events: none;
+    display: inline;
+}
+#input2{
+    width: 30px;
+    margin-left: 0;
+    border: none;
+    background: transparent;
+    font-weight: 600;
+    color: red;
+    pointer-events: none;
+    display: inline;
+}
